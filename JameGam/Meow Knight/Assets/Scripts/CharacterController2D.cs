@@ -18,6 +18,7 @@ public class CharacterController2D : MonoBehaviour
 	private Rigidbody2D m_Rigidbody2D;
 	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
+	public int health = 100;
 
 	[Header("Events")]
 	[Space]
@@ -131,6 +132,26 @@ public class CharacterController2D : MonoBehaviour
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
 		}
 	}
+
+	void TakeDamage(int damage)
+	{
+		Debug.Log("took damage");
+		Debug.Log(damage);
+		health -= damage;
+		if(health <= 0)
+		{
+			//game over
+			Destroy(gameObject);
+		}
+	}
+    void OnTriggerEnter2D(Collider2D hitInfo)
+    {
+        Enemy enemy = hitInfo.GetComponent<Enemy>();
+        if(enemy != null)
+        {
+			TakeDamage(enemy.damage);
+        }
+    }
 
 
 	private void Flip()

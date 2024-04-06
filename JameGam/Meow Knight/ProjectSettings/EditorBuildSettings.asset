@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Main Menu.unity
     guid: a80587b1a507c224aa9d91869acca461
   - enabled: 1
-    path: Assets/platformer(1).unity
+    path: Assets/Main Level.unity
     guid: 141c1fac4d69fc042a647c2ce86fa4d6
   m_configObjects: {}
