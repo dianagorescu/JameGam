@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 33952293}
   - component: {fileID: 33952294}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Grass 05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,7 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 103885573}
   - component: {fileID: 103885572}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Sign Text 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -301,7 +301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 117283495}
   - component: {fileID: 117283494}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Road Sign Text 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -375,6 +375,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 785875323}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &121393871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 121393872}
+  m_Layer: 8
+  m_Name: FiringPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &121393872
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121393871}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.653, y: -0.024, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1117949318}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &124449061
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,7 +416,7 @@ GameObject:
   m_Component:
   - component: {fileID: 124449062}
   - component: {fileID: 124449063}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 01 bg (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -469,7 +500,7 @@ GameObject:
   m_Component:
   - component: {fileID: 134824719}
   - component: {fileID: 134824720}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Grass 08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -614,7 +645,7 @@ PrefabInstance:
     - target: {fileID: 800548260796433031, guid: 6362db66c4f5b65499b8c3453d708a71,
         type: 3}
       propertyPath: m_Offset.y
-      value: 0.29
+      value: 0.33
       objectReference: {fileID: 0}
     - target: {fileID: 800548260796433031, guid: 6362db66c4f5b65499b8c3453d708a71,
         type: 3}
@@ -639,13 +670,28 @@ PrefabInstance:
     - target: {fileID: 952491202840447687, guid: 6362db66c4f5b65499b8c3453d708a71,
         type: 3}
       propertyPath: m_Offset.y
-      value: -0.2
+      value: -0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016011257088071306, guid: 6362db66c4f5b65499b8c3453d708a71,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.524
       objectReference: {fileID: 0}
     - target: {fileID: 5877572669405961719, guid: 6362db66c4f5b65499b8c3453d708a71,
         type: 3}
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: ac5a869fddfc05d4da7a13c82638d1fc, type: 2}
+    - target: {fileID: 6553796053581001499, guid: 6362db66c4f5b65499b8c3453d708a71,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.156
+      objectReference: {fileID: 0}
+    - target: {fileID: 6553796053581001499, guid: 6362db66c4f5b65499b8c3453d708a71,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.579
+      objectReference: {fileID: 0}
     - target: {fileID: 8173599594515299237, guid: 6362db66c4f5b65499b8c3453d708a71,
         type: 3}
       propertyPath: m_FlipX
@@ -670,8 +716,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 4371543305796202673, guid: 6362db66c4f5b65499b8c3453d708a71, type: 3}
-    m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 740663293776030111, guid: 6362db66c4f5b65499b8c3453d708a71,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 121393872}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8569652152931900610, guid: 6362db66c4f5b65499b8c3453d708a71,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1117949326}
   m_SourcePrefab: {fileID: 100100000, guid: 6362db66c4f5b65499b8c3453d708a71, type: 3}
 --- !u!1 &156456800
 GameObject:
@@ -683,7 +737,7 @@ GameObject:
   m_Component:
   - component: {fileID: 156456801}
   - component: {fileID: 156456802}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Grass 07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -771,7 +825,7 @@ GameObject:
   - component: {fileID: 167422545}
   - component: {fileID: 167422544}
   - component: {fileID: 167422546}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26243,7 +26297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 175741339}
   - component: {fileID: 175741340}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 01 bg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26327,7 +26381,7 @@ GameObject:
   m_Component:
   - component: {fileID: 190465434}
   - component: {fileID: 190465433}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Tree 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26411,7 +26465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 203535309}
   - component: {fileID: 203535310}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Road Lamp Light On
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26495,7 +26549,7 @@ GameObject:
   m_Component:
   - component: {fileID: 244810695}
   - component: {fileID: 244810696}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 01 bg (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26579,7 +26633,7 @@ GameObject:
   m_Component:
   - component: {fileID: 248505568}
   - component: {fileID: 248505569}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Sunflower 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26663,7 +26717,7 @@ GameObject:
   m_Component:
   - component: {fileID: 259395738}
   - component: {fileID: 259395739}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Road Sign 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26747,7 +26801,7 @@ GameObject:
   m_Component:
   - component: {fileID: 319281000}
   - component: {fileID: 319281001}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Grass 08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26831,7 +26885,7 @@ GameObject:
   m_Component:
   - component: {fileID: 363001272}
   - component: {fileID: 363001273}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Stump
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26915,7 +26969,7 @@ GameObject:
   m_Component:
   - component: {fileID: 398206257}
   - component: {fileID: 398206258}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Tree 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26999,7 +27053,7 @@ GameObject:
   m_Component:
   - component: {fileID: 430245497}
   - component: {fileID: 430245498}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Road Lamp Light On (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27083,7 +27137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 434707059}
   - component: {fileID: 434707060}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 01 bg (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27167,7 +27221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 515343302}
   - component: {fileID: 515343303}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 01 bg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27251,7 +27305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 578635934}
   - component: {fileID: 578635935}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Ladder 01 Side RT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27336,7 +27390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 578705116}
   - component: {fileID: 578705117}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Grass 09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27420,7 +27474,7 @@ GameObject:
   m_Component:
   - component: {fileID: 590868262}
   - component: {fileID: 590868263}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Billboard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27504,7 +27558,7 @@ GameObject:
   m_Component:
   - component: {fileID: 591988544}
   - component: {fileID: 591988545}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Tree 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27588,7 +27642,7 @@ GameObject:
   m_Component:
   - component: {fileID: 663180370}
   - component: {fileID: 663180371}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Stone of Recall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27672,7 +27726,7 @@ GameObject:
   m_Component:
   - component: {fileID: 664266110}
   - component: {fileID: 664266111}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 05 rocksfront (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27756,7 +27810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 686987964}
   - component: {fileID: 686987965}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 04 rocksback (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27840,7 +27894,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705312176}
   - component: {fileID: 705312177}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 01 bg (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27924,7 +27978,7 @@ GameObject:
   m_Component:
   - component: {fileID: 711992164}
   - component: {fileID: 711992165}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Grass 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27998,6 +28052,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &781562992 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8569652152931900610, guid: 6362db66c4f5b65499b8c3453d708a71,
+    type: 3}
+  m_PrefabInstance: {fileID: 153337648}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &785875322
 GameObject:
   m_ObjectHideFlags: 0
@@ -28007,7 +28067,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 785875323}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: verziciuni
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28078,7 +28138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 786014675}
   - component: {fileID: 786014676}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 01 bg (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28162,7 +28222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 822534540}
   - component: {fileID: 822534539}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28209,7 +28269,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 836540767}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: caveuri
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28262,7 +28322,7 @@ GameObject:
   m_Component:
   - component: {fileID: 971930874}
   - component: {fileID: 971930875}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 01 bg (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28346,7 +28406,7 @@ GameObject:
   m_Component:
   - component: {fileID: 984446032}
   - component: {fileID: 984446033}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Bush 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28430,7 +28490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1036774924}
   - component: {fileID: 1036774925}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Grass 06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28514,7 +28574,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1061600026}
   - component: {fileID: 1061600027}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Bush 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28598,7 +28658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1067802646}
   - component: {fileID: 1067802645}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Grass 08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28682,7 +28742,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1073944641}
   - component: {fileID: 1073944640}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Bush 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28766,7 +28826,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1082848850}
   - component: {fileID: 1082848851}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Chest Golden
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28847,6 +28907,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 153337648}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1117949319 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8874284438451784828, guid: 6362db66c4f5b65499b8c3453d708a71,
+    type: 3}
+  m_PrefabInstance: {fileID: 153337648}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1117949326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781562992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ace66a6e3b4cef4c9bf67d5d4599713, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firingPoint: {fileID: 121393872}
+  bulletPrefab: {fileID: 2173275717303683860, guid: 8376eb5c8e2ef8241b6aa3e2ffe7bc5b,
+    type: 3}
+  animator: {fileID: 1117949319}
 --- !u!1 &1137071213
 GameObject:
   m_ObjectHideFlags: 0
@@ -28857,7 +28939,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1137071215}
   - component: {fileID: 1137071214}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Grass 08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28941,7 +29023,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1140410366}
   - component: {fileID: 1140410367}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 01 bg (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29025,7 +29107,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1150620673}
   - component: {fileID: 1150620672}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Road Sign 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29109,7 +29191,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1151535883}
   - component: {fileID: 1151535884}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 01 bg (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29193,7 +29275,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1276780214}
   - component: {fileID: 1276780215}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Chest Wooden
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29277,7 +29359,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1337440926}
   - component: {fileID: 1337440925}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Grass 06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29361,7 +29443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1407186509}
   - component: {fileID: 1407186510}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Grass 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29445,7 +29527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1413192597}
   - component: {fileID: 1413192598}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Rock 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29529,7 +29611,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1425344022}
   - component: {fileID: 1425344023}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 01 bg (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29613,7 +29695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1426540526}
   - component: {fileID: 1426540525}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Rock 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29697,7 +29779,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1446206294}
   - component: {fileID: 1446206295}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 01 bg (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29781,7 +29863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1506480160}
   - component: {fileID: 1506480161}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Grass 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29865,7 +29947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1524700802}
   - component: {fileID: 1524700801}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Road Sign Text 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29949,7 +30031,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1544755317}
   - component: {fileID: 1544755318}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Grass 09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30033,7 +30115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1610361026}
   - component: {fileID: 1610361027}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 01 bg (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30190,7 +30272,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1681527489}
   - component: {fileID: 1681527490}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Bush 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30274,7 +30356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1693460248}
   - component: {fileID: 1693460249}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 01 bg (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30358,7 +30440,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1700031175}
   - component: {fileID: 1700031176}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Log Bench
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30510,7 +30592,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1734173465}
   - component: {fileID: 1734173466}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Road Lamp Light On
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30594,7 +30676,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1827766287}
   - component: {fileID: 1827766288}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 04 rocksback
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30678,7 +30760,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1840228037}
   - component: {fileID: 1840228038}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Grass 06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30762,7 +30844,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1868802436}
   - component: {fileID: 1868802435}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Grass 09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30846,7 +30928,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1951743989}
   - component: {fileID: 1951743990}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 05 rocksfront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30930,7 +31012,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1961672192}
   - component: {fileID: 1961672191}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Road Sign Text 03 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31014,7 +31096,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1967880439}
   - component: {fileID: 1967880440}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 01 bg (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31098,7 +31180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2007329960}
   - component: {fileID: 2007329959}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Tree 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31182,7 +31264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2070164813}
   - component: {fileID: 2070164814}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 01 bg (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31266,7 +31348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2073746239}
   - component: {fileID: 2073746240}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 01 bg (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31350,7 +31432,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2075014511}
   - component: {fileID: 2075014512}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Bush 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31434,7 +31516,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2094057271}
   - component: {fileID: 2094057272}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Brick Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31518,7 +31600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2145461268}
   - component: {fileID: 2145461269}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TX Village Props - Grass 08 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
