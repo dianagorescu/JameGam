@@ -92781,12 +92781,12 @@ PrefabInstance:
     - target: {fileID: 3799366895206768379, guid: 219e37e61965b154d8bbe349cce7fab8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 166.2
+      value: 363.4
       objectReference: {fileID: 0}
     - target: {fileID: 3799366895206768379, guid: 219e37e61965b154d8bbe349cce7fab8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 29.900002
+      value: 11.8
       objectReference: {fileID: 0}
     - target: {fileID: 3799366895206768379, guid: 219e37e61965b154d8bbe349cce7fab8,
         type: 3}
@@ -99196,12 +99196,12 @@ PrefabInstance:
     - target: {fileID: 983290517628167625, guid: e629bf690f9a3784099244972674cf3f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 166.2
+      value: 363.4
       objectReference: {fileID: 0}
     - target: {fileID: 983290517628167625, guid: e629bf690f9a3784099244972674cf3f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.2
+      value: 12.1
       objectReference: {fileID: 0}
     - target: {fileID: 983290517628167625, guid: e629bf690f9a3784099244972674cf3f,
         type: 3}
@@ -99518,7 +99518,7 @@ Transform:
   m_GameObject: {fileID: 1317158004}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 315.3, y: 5, z: 100}
+  m_LocalPosition: {x: 315.3, y: 4.95, z: 100}
   m_LocalScale: {x: 50, y: 50, z: 50}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -102767,12 +102767,12 @@ PrefabInstance:
     - target: {fileID: 7730273233181006179, guid: eb1553cf8fcd49b498fa0d470d354e6c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 166.2
+      value: 363.4
       objectReference: {fileID: 0}
     - target: {fileID: 7730273233181006179, guid: eb1553cf8fcd49b498fa0d470d354e6c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 29.900002
+      value: 11.8
       objectReference: {fileID: 0}
     - target: {fileID: 7730273233181006179, guid: eb1553cf8fcd49b498fa0d470d354e6c,
         type: 3}
