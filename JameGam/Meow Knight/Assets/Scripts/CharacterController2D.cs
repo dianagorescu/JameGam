@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.SceneManagement;
 
 public class CharacterController2D : MonoBehaviour
 {
@@ -19,7 +18,7 @@ public class CharacterController2D : MonoBehaviour
 	private Rigidbody2D m_Rigidbody2D;
 	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
-	public int health = 100;
+
 
 	[Header("Events")]
 	[Space]
@@ -134,24 +133,6 @@ public class CharacterController2D : MonoBehaviour
 		}
 	}
 
-	void TakeDamage(int damage)
-	{
-		health -= damage;
-		if(health <= 0)
-		{
-			//game over
-			Destroy(gameObject);
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-		}
-	}
-    void OnTriggerEnter2D(Collider2D hitInfo)
-    {
-        Enemy enemy = hitInfo.GetComponent<Enemy>();
-        if(enemy != null)
-        {
-			TakeDamage(enemy.damage);
-        }
-    }
 
 
 	private void Flip()
