@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using Pathfinding;
 
@@ -8,14 +9,13 @@ public class SpawnEnemies : MonoBehaviour
     public Transform playerTarget;
     public GameObject enemyPrefab;
     bool spawning = false;
-    bool disabled = true;
     float spawnTick = 5f;
     int positionSpawn = 1;
 
     // Update is called once per frame
     void Update()
     {
-        if(!spawning && !disabled)
+        if(!spawning)
         {
             spawning = true;
             Invoke("SpawnEnemy", spawnTick);

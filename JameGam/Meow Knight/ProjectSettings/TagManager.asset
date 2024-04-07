@@ -16,7 +16,7 @@ TagManager:
   - 
   - Player
   - Obstacle
-  - 
+  - Background
   - 
   - 
   - 
@@ -39,8 +39,14 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Player
+    uniqueID: 3861041129
+    locked: 0
   - name: Background
     uniqueID: 1611635347
+    locked: 0
+  - name: Obstacle
+    uniqueID: 1129083225
     locked: 0
   - name: Default
     uniqueID: 0
