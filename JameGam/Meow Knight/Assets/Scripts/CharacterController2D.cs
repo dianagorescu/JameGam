@@ -135,8 +135,6 @@ public class CharacterController2D : MonoBehaviour
 
 	void TakeDamage(int damage)
 	{
-		Debug.Log("took damage");
-		Debug.Log(damage);
 		health -= damage;
 		if(health <= 0)
 		{
